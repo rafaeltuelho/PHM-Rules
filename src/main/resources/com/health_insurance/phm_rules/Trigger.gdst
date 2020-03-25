@@ -38,28 +38,6 @@
       </window>
       <entryPointName></entryPointName>
     </Pattern52>
-    <Pattern52>
-      <factType>Result</factType>
-      <boundName>result</boundName>
-      <isNegated>false</isNegated>
-      <conditions>
-        <condition-column52>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Result</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>this</factField>
-          <fieldType>Result</fieldType>
-          <operator>!= null</operator>
-          <parameters/>
-          <binding></binding>
-        </condition-column52>
-      </conditions>
-      <window>
-        <parameters/>
-      </window>
-      <entryPointName></entryPointName>
-    </Pattern52>
   </conditionPatterns>
   <actionCols>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
@@ -426,14 +404,11 @@
           <boundName>response</boundName>
           <isBound>true</isBound>
         </org.drools.workbench.models.datamodel.rule.ActionInsertFact>
-        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>result.getResponses().add(response);</text>
-        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
-          <width>124</width>
+          <width>100</width>
           <header>CREATE RESPONSE</header>
           <varName></varName>
           <fieldType>Boolean</fieldType>
@@ -555,12 +530,6 @@
         <valueNumeric class="int">74</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -726,12 +695,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueNumeric class="int">58</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
@@ -879,12 +842,6 @@
         <valueNumeric class="int">74</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1042,12 +999,6 @@
         <valueNumeric class="int">74</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueBoolean>true</valueBoolean>
-        <valueString></valueString>
-        <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
