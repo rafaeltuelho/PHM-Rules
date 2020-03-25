@@ -1235,12 +1235,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueDate>2020-12-31 05:00:00.0 UTC</valueDate>
         <valueString></valueString>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>SOFT</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1338,7 +1339,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1396,12 +1397,13 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueDate>2020-12-31 05:00:00.0 UTC</valueDate>
         <valueString></valueString>
         <dataType>DATE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>SOFT</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1499,7 +1501,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
